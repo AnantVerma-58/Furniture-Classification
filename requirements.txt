@@ -3,4 +3,4 @@ torchaudio==2.5.1
 torchvision==0.20.1
 numpy==2.2.0
 streamlit==1.41.0
-opencv-python-headless
+opencv-python-headless==4.10.0.84
