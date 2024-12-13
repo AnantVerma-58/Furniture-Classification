@@ -53,7 +53,7 @@ The following models were trained and deployed:
 
 - **DenseNet**
 - **ResNet**
-- **Custom CNN**
+- **VGG**
 
 These models were trained on a custom dataset of furniture images and tested for accuracy and reliability.
 
