@@ -21,6 +21,7 @@ A web-based application that allows users to classify furniture images using mul
 
 5. **Deployment**:
    - Deployed on [Streamlit Cloud](https://furniture-classification.streamlit.app/).
+   - Docker Image Available on [Docker Hub](https://dockerhub.com)
 
 ## How It Works
 
@@ -74,6 +75,15 @@ These models were trained on a custom dataset of furniture images and tested for
 ## Deployment
 
 The app is deployed on Streamlit Cloud and can be accessed [here](https://furniture-classification.streamlit.app/).
+
+## Docker Image
+
+This application is also available as a Docker image, making it easy to run locally without setting up the environment manually.
+
+- **Docker Hub Repository**: [Furniture Image Classification](https://hub.docker.com/r/anant58/furniture-classification)
+- **Pull the Image**:
+  ```bash
+   docker pull anant58/furnitureimage:1.3
 
 ## File Structure
 
