@@ -14,7 +14,8 @@ def prediction(ca=None, model_name_for_prediction=model_name_for_prediction, img
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = model_name_for_prediction
     model = create_model(model_name=model_name_for_prediction)
-    model.load_state_dict(torch.load(save_path+"/"+model_name_for_prediction+'.pt', weights_only=True))
+    # model.load_state_dict(torch.load(save_path+"/"+model_name_for_prediction+'.pt', weights_only=True))
+    model.load_state_dict(torch.load(os.path.join(save_path, model_name_for_prediction + '.pt'), map_location=device))
     model.eval()
 
     if ca is not None:
