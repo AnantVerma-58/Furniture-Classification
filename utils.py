@@ -6,9 +6,9 @@ import os
 # final_data_folder = os.environ['CONDA_PREFIX']+"/project/final"
 
 project_root = os.path.dirname(os.path.abspath(__file__))
-output_folder = os.path.join(project_root, "updated_furniture_data")
-input_folder = os.path.join(project_root, "furniture_data")
-augment_folder = os.path.join(project_root, "augmented")
+# output_folder = os.path.join(project_root, "updated_furniture_data")
+# input_folder = os.path.join(project_root, "furniture_data")
+# augment_folder = os.path.join(project_root, "augmented")
 final_data_folder = os.path.join(project_root, "final")
 
 
@@ -18,7 +18,7 @@ batch_size = 32
 lr = 0.01
 num_classes = 5
 num_epochs = 30
-save_path = os.path.join(project_root,"streamlit")
+# save_path = os.path.join(project_root,"streamlit")
 
 model_name_for_prediction = 'densenet'
 
