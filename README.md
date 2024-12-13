@@ -1,5 +1,17 @@
 # Furniture Image Classification
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![PyTorch](https://img.shields.io/badge/torch-2.5.1-orange)
+![TorchVision](https://img.shields.io/badge/torchvision-0.20.1-green)
+![NumPy](https://img.shields.io/badge/numpy-2.2.0-violet)
+![Streamlit](https://img.shields.io/badge/streamlit-1.41.0-brightgreen)
+![OpenCV](https://img.shields.io/badge/opencv--python--headless-4.10.0.84-purple)
+
+
+![Docker Pulls](https://img.shields.io/docker/pulls/anant58/furniture-classification)
+![Docker Image Size](https://img.shields.io/docker/image-size/anant58/furniture-classification/1.3)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live_App-orange)](https://furniture-classification.streamlit.app/)
+
 A web-based application that allows users to classify furniture images using multiple pre-trained models. The app offers the flexibility to upload your own image of any extension and size or choose from a set of sample images. It is powered by Streamlit and is designed to showcase the capabilities of deep learning in image classification.
 
 ## Features
@@ -83,7 +95,9 @@ This application is also available as a Docker image, making it easy to run loca
 - **Docker Hub Repository**: [Furniture Image Classification](https://hub.docker.com/r/anant58/furniture-classification)
 - **Pull the Image**:
   ```bash
-   docker pull anant58/furnitureimage:1.3
+  docker pull anant58/furnitureimage:1.3
+  docker run -d -p 9999:9999 anant58/furniture-classification:1.3
+- **Acess The app a t [http://localhost:9999](http://localhost:9999)**
 
 ## File Structure
 
