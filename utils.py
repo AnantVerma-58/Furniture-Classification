@@ -23,11 +23,11 @@ save_path = os.path.join(project_root,"streamlit")
 model_name_for_prediction = 'densenet'
 
 image_paths = {
-    1: os.path.join(project_root, "samples/1_aug1.jpeg",
-    2: os.path.join(project_root, "samples/1_aug2.jpeg",
-    3: os.path.join(project_root, "samples/4_aug2.jpeg",
-    4: os.path.join(project_root, "samples/6_aug2.jpeg",
-    5: os.path.join(project_root, "samples/9_aug2.jpeg",
+    1: os.path.join(project_root, "samples/1_aug1.jpeg"),
+    2: os.path.join(project_root, "samples/1_aug2.jpeg"),
+    3: os.path.join(project_root, "samples/4_aug2.jpeg"),
+    4: os.path.join(project_root, "samples/6_aug2.jpeg"),
+    5: os.path.join(project_root, "samples/9_aug2.jpeg"),
 }
 
 class_names = ['bed','chair','sofa','storage','table']
