@@ -1,3 +1,6 @@
-matplotlib=3.9.3
-numpy=2.2.0
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+numpy==2.2.0
+streamlit==1.41.0
+opencv-python==4.10.0.84
