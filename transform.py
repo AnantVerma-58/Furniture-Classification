@@ -1,7 +1,9 @@
 import os
 import cv2
 from torchvision import transforms
-
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
 def convert_images(input_dir, output_dir, target_format=".png"):
     """
     Convert all images in the input directory to a specific format and save them in the output directory,
