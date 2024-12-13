@@ -20,7 +20,7 @@ A web-based application that allows users to classify furniture images using mul
    - Data augmentation techniques were used to enhance the dataset for improved performance.
 
 5. **Deployment**:
-   - Deployed on [Streamlit Cloud](https://streamlit.io/cloud).
+   - Deployed on [Streamlit Cloud](https://furniture-classification.streamlit.app/).
 
 ## How It Works
 
